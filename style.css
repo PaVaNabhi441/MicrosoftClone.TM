@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: white;
   color: black;
   font-size: 15px;
@@ -35,6 +35,7 @@ ul {
   font-size: 13px;
   /* This ensures the browser to render the space equally between the items */
   justify-content: space-between;
+  transition: 0.3s ease;
 }
 
 .main-nav .logo {
@@ -48,6 +49,7 @@ ul {
 .main-nav ul li {
   padding: 0 10px;
   border-bottom: white 2px solid;
+  transition: 0.2s ease-in-out;
 }
 .main-nav ul li a {
   padding-bottom: 2px;
@@ -138,6 +140,7 @@ ul {
   color: #0067b8;
   text-transform: uppercase;
   font-weight: bold;
+  transition: 0.2s ease-in-out;
 }
 
 .home-cards a:hover i {
